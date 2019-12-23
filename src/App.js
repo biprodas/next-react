@@ -1,10 +1,11 @@
 import React from 'react';
-import {MyInfo} from './Info';
+import DefaultLayout from './containers/DefaultLayout';
+
 
 function App() {
   return (
     <div>
-      <MyInfo />
+      <DefaultLayout />
     </div>
   );
 }
