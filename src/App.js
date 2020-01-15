@@ -1,11 +1,14 @@
 import React from 'react';
-import {MyInfo} from './Info';
+import {BrowserRouter} from 'react-router-dom';
+import DefaultLayout from './containers/DefaultLayout';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Page from './views/Page';
 
 function App() {
   return (
-    <div>
-      <MyInfo />
-    </div>
+    <BrowserRouter>
+      <Page />
+    </BrowserRouter>
   );
 }
 
